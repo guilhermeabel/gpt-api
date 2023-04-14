@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI API</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <h1>OpenAI API Demo</h1>
+    <button id="listModels">List Models</button>
+    <div class="request-container">
+      <h2>Send Request</h2>
+      <label for="prompt">Prompt:</label>
+      <input type="text" id="prompt" name="prompt">
+      <button id="sendRequest">Send Request</button>
+    </div>
+    <div class="response-container" id="response"></div>
+  </div>
+
+  <script src="script.js"></script>
+</html>
